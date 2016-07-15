@@ -4,13 +4,14 @@
 
 <body>
   {{> notebook}}
-{{> loginButtons}}
-{{> addNotes}}
+  {{> loginButtons}}
+  {{> addNotes}}
 </body>
-<template name="notebook">
-</template>
-
-<template name="addNotes">
-</template>
+  <template name="notebook">
+  </template>
+  <template name="addNotes">
+     <button id="noteButton"></button>
+     <textarea id="noteInput"></textarea>
+  </template>
 
 
