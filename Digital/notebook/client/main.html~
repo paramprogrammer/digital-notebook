@@ -3,9 +3,14 @@
 </head>
 
 <body>
-  
+  {{> notebook}}
 {{> loginButtons}}
+{{> addNotes}}
 </body>
+<template name="notebook">
+</template>
 
+<template name="addNotes">
+</template>
 
 
